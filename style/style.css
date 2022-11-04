@@ -16,6 +16,7 @@ body {
     background: rgb(65, 65, 165);
     color: rgb(233, 231, 231);
     transition: 0.7 ease-in-out;
+    height: auto;
 }
 
 .wrapper {
