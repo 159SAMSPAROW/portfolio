@@ -187,13 +187,14 @@ header>h2 {
     color: rgb(65, 65, 165);
 }
 
-.about > p {
+.about-me {
     width: 70%;
     min-width: 280px;
-    text-align: center;
+    text-align:start;
     margin: 0 auto;
     line-height: calc(7px + 4.5vw);
     font-size: calc(1rem + 2vw);
+    color: rgb(65, 65, 165);
 }
 
 
