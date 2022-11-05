@@ -168,9 +168,11 @@ header>h2 {
 }
 
 .about {
-    margin: 460px 0 250px;
+    margin: 460px 0 50px;
 }
-
+.img0{
+text-align: center;
+}
 .img1 {
     width: 350px;
     height: 350px;
