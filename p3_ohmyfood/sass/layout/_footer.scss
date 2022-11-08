@@ -1,0 +1,79 @@
+.footer{
+    background-color: $clr_bg_3;
+    height: 240px;
+    max-width: 100%;
+    
+    @include tablet-only{ 
+         font-size: xx-large;
+         height: auto;
+    }
+   
+    &__logo{
+        font-size: x-large;
+        color: $clr_font_btn;
+
+        @include tablet-only{
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+
+    &__logo > h4{
+        padding: 15px 0 0 40px;
+        margin-top: 0;
+        font-family: 'Shrikhand', cursive;
+    } 
+
+    &__link{
+        list-style-type: none;
+    
+    }
+
+    &__link > li{
+        margin: 0 0 12px 0;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-size: medium;
+    }
+
+    .fa-utensils{
+        margin: 0 15px 0 0;
+
+        @include tablet-only{
+        margin-right: 10px;
+        }
+    }
+
+    .fa-handshake-angle{
+        margin: 0 8px 0 0;
+
+        @include tablet-only{
+            margin-right: 10px;
+        }
+    }
+
+    ul{
+        @include tablet-only{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            padding: 0;
+            height: 100px;
+        }
+    }
+
+    a{
+        color: $clr_white;
+    
+        @include tablet-only{
+            display: flex;
+            flex-direction: row;
+            font-size: 1.3rem;
+        
+        }
+    }
+
+    a:link{
+    text-decoration: none;
+    }
+}
+

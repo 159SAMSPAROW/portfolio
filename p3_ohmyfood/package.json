@@ -1,0 +1,14 @@
+{
+  "name": "p3-package.json",
+  "version": "0.1.0",
+  "description": "oh_my_food",
+  "main": "index.html",
+  "scripts": {
+  "sass": "sass --watch ./sass/main.scss:.public/css/style.css",
+  "prefix": "postcss .public/css/style.css --use autoprefixer -d .public/css/prefixed/"
+  },
+  "author": "sami",
+  "license": "ISC",
+  "browserslist": "last 4 versions"
+}
+

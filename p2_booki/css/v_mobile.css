@@ -1,0 +1,235 @@
+@media screen and (max-width: 767px) {
+    body{
+      margin: 0px;
+    }
+    main{ 
+      padding-left: 5px;
+      padding-right: 5px;
+    }
+ 
+    #logo{
+      display: flex;
+      position: absolute;
+      left: 35%; 
+      margin: 20px 0 30px; 
+    }
+    /*--HEADER--*/
+    .head{
+      width: 100%;
+      padding: 60px 0 10px 0;
+      position: absolute;
+      left: 2%;
+    }
+    .li_head{
+        text-align: center;
+        padding: 5% 12% 0 10%;
+        margin: 0 0 0 0;
+        height: 30px;
+        font-size: large;
+        border-bottom: 2px solid var(--secondary)  
+    }
+    
+    .li_head:hover{
+        margin-top: 1px;
+        border-bottom:solid 2px var(--main);
+        border-top: none;
+        
+    }
+    /*--MAIN--*/
+    .head_title{
+      display: flex;
+      flex-wrap: wrap;
+      margin:10px 0 0  2px;
+      padding: 50px 0 10px 0;
+    }
+ 
+    
+    
+/*--LOCATION BAR--*/
+    #location{
+        width: 330px;
+        border: 2px solid var(--secondary);
+        border-radius: 18px;
+        margin: 0 0 5% 5% ;
+    }  
+    .fa-location-dot{
+        margin: 7px;
+        border-radius: 20px 20px 0 0;
+    }
+    #search{
+       border: hidden;  
+    }
+    .search_icon{
+        width: 30px;
+        height: 30px;border-radius: 15px 0px 0px 15px;
+    }
+    .submit{
+        display: none;
+    }
+    .phone_submit{
+      border: none;
+        display: flex;
+        width: 47px;
+        padding-right: 2px;
+        border-radius: 15px; 
+        background-color: var(--main);
+        color: var(--main3);
+    }
+     .phone_submit:hover{
+      background-color: var(--main2);
+    }
+    .fa-magnifying-glass{
+      margin:12px 9px 10px 9px;
+      color: var(--main3);
+    }
+   .fa-magnifying-glass:hover{
+     color: var(--main);
+   }
+    
+
+    
+/*--FILTERS BAR--*/
+.filters{
+  flex-direction: row;
+}
+.filters > h2{
+margin-top: 15px;
+width: 100%;
+}
+.filters-container-1{ 
+  width: 170px;
+}
+.filters-container-2{
+  margin-right: 10%;
+  width: 130px;
+}
+.filters-container-3{
+  margin-right: 100%;
+  width: 170px;
+}
+.filters-container-4{
+  width: 210px;
+}
+.filters-container-1, .filters-container-2, .filters-container-3, .filters-container-4{
+  padding: 0;
+}
+/*--BOX CARD ET BOX CARD ASIDE--*/
+   #box_card_box_card_aside{
+     margin: 0;
+     flex-direction: column-reverse;
+   }
+   .box_card > h2 {
+    width: 100%;
+    margin: 20px 0 20px 0;
+    font-size: x-large;
+   }
+   .box_card{ 
+    width: 100%;
+    margin: 0;
+    background-color: var(--main3);
+    flex-direction: column;
+   }
+   .card{
+    width: 100%;
+    height: 250px;
+    box-shadow: 10px 10px 10px var(--secondary);
+    margin: 1px 0 10px 0;
+    border: 1px solid var(--main3);
+   }
+   .card_body > p {
+     font-size: small;
+     
+   }
+  .img_card{
+    width: 100%;
+   }
+  .card_notation_bar{
+    margin-left: 5px;
+  }
+
+   .box_card_aside{
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+    border-radius: 0px;
+   }
+   .card_aside{
+    width: 90%;
+    height: 150px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 15px;
+   }
+   .aside_body{
+     left: 55%;
+     height: 140px;
+   }
+   .aside_body > p{  
+    margin-bottom: 45px;
+   }
+   .img_aside{
+    width: 45%;
+   }
+  
+   .fa-arrow-trend-up{
+    background-color: var(--secondary);
+   }
+
+/*--MARSEILLE ACTIVITIES--*/
+  .bottom{
+    flex-direction: column;
+    margin: 2px;
+  }
+  .link_bottom > h5{
+    font-size: 15px;
+    height: 200px;
+  }
+  #activities_marseille > h2{
+    margin: 10px 0px 5px 0px;
+  }
+  .card_bottom_tall{
+    width: 100%;
+    max-width: 99%;
+    height: 210px;
+    margin: 10px 0 10px 0;
+  }
+  .img_card_bottom_tall{
+    width: 100%;
+    height: 160px;
+   
+    
+  }
+
+  .card_bottom_small{
+    width: 100%;
+    max-width: 99%;
+    height: auto;
+  }
+  .img_card_bottom_small{
+    width: 100%;
+    height: 160px;
+    padding-bottom: 10px;
+  }
+  .card_small1, .card_small2, .card_small3, .card_small4{
+    width: 100%;
+    height: 210px;
+    margin: 10px 0 10px 0;
+  }
+  
+/*--FOOTER--*/
+  .footer{
+      max-width: 100%;
+      height: 450px;
+      display: flex;
+      flex-direction: column;
+      border-radius: 0px;
+      margin: 0 0 0 0;
+  }
+  .li_footer{
+      margin-left: 0px;
+  }
+}

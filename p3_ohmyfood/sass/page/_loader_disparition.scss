@@ -1,0 +1,17 @@
+.load__disparition{
+animation: disappear 1s 2s ease-out forwards;
+
+}
+
+
+@keyframes disappear{
+    from {
+    opacity: 1;
+    transform:rotate3d(0, 0, 0, 0deg) scaleY(1);
+    
+    }
+    to {
+    opacity: 0;
+    transform: rotate3d(1, 1, 0, 360deg) scaleY(0);
+    }
+}
