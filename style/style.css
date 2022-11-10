@@ -17,6 +17,7 @@ body {
     color: rgb(233, 231, 231);
     transition: 0.7 ease-in-out;
     height: auto;
+    
 }
 
 .wrapper {
@@ -250,7 +251,7 @@ header>h2 {
     top: -3px;
     background: rgb(163, 210, 251);
     transition: width 1s ease-out;
-    transition-delay: 0.85s;
+    transition-delay: 1s;
 }
 
 .project.is-inview::before {
@@ -259,6 +260,7 @@ header>h2 {
 
 #p3 {
     margin: 0 6vw 0 auto;
+    
 }
 
 #p4 {
@@ -278,18 +280,19 @@ header>h2 {
 }
 
 .project>img {
-    transition: 0.4s ease-out;
+    transition: 0.7s ease-out;
     width: 100%;
 }
 
 .project:hover>img {
     filter: brightness(20%);
+    transform:scale(1.1) rotate3d(0, 1, 0.5, 360deg);
 }
 
 .project:hover>.project_infos {
     opacity: 1;
     font-weight: bold;
-    transform: translateY(-50%);
+    transform: translateY(-50%) rotate3d(0, 1, 0.5, 360deg);
 }
 
 .project_infos {
@@ -297,7 +300,7 @@ header>h2 {
     top: 50%;
     transform: translate(-50% -50%);
     margin-left: 6vw;
-    transition: 0.4s ease-out;
+    transition: 0.7s ease-out;
     opacity: 0;
     color: rgb(233, 231, 231);
 }
